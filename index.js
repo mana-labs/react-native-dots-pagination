@@ -35,9 +35,9 @@ export default class Dots extends Component {
       activeBorderWidth: PropTypes.number,
 
       // passive Border
-      activeBorder: PropTypes.bool,
-      activeBorderColor: PropTypes.string,
-      activeBorderWidth: PropTypes.number,
+      passiveBorder: PropTypes.bool,
+      passiveBorderColor: PropTypes.string,
+      passiveBorderWidth: PropTypes.number,
 
       // events
       onScrollTo: PropTypes.func,
